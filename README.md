@@ -66,6 +66,7 @@ BC_MARKET_RETAIL/
 │   ├── nettoyees/          # Données nettoyées et modifiées
 ├── livrables/              # Contient tout ce qui a été demandé et qu'il faudra rendre
 │   ├── dashboard/          # Dashboard powerBI
+│   ├── presentation/       # owerpoint de présentation
 └── README.md               # Description du projet
 ```
 
