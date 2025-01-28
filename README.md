@@ -20,7 +20,7 @@ Le jeu de données est composé de **8048 lignes**, représentant des commandes 
 
 ## 🛠️ Méthodologie  
 
-1. [Analyse et Prétraitement des Données](./docs/fichiers/notebook.ipynb)  
+1. [Analyse et Prétraitement des Données](./docs/recherche/notebook.ipynb)  
 2. [Définition des KPI](./docs/recherche/kpis.md)  
 3. [Développement d'un tableau de bord](./livrables/BC_MPR.pbix)
 4. [Mise en place d'un PowerPoint de présentation](./livrables/BC_MPR.pptx)
