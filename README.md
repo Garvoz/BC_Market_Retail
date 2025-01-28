@@ -3,7 +3,7 @@
 ## 📜 Contexte  
 Vous êtes analyste de données pour une grande entreprise de vente au détail. Le service commercial dispose d'une grande quantité de données sur les coûts et les bénéfices à travers le monde.  
 Ils souhaitent explorer et se concentrer sur un marché spécifique et prometteur (car ils constatent une augmentation des bénéfices). Ils ont également besoin de traiter les retours des clients. 
-Votre objectif est d'explorer, de présenter et de cibler un marché.
+Votre objectif est d'explorer, de présenter et de cibler un marché **EN UN TEMPS LIMITE**.
 
 ---
 
