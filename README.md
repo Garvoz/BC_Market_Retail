@@ -2,7 +2,8 @@
 
 ## 📜 Contexte  
 Vous êtes analyste de données pour une grande entreprise de vente au détail. Le service commercial dispose d'une grande quantité de données sur les coûts et les bénéfices à travers le monde.  
-Ils souhaitent explorer et se concentrer sur un marché spécifique et prometteur (car ils constatent une augmentation des bénéfices). Ils ont également besoin de traiter les retours des clients. Votre objectif est d'explorer, de présenter et de cibler un marché.
+Ils souhaitent explorer et se concentrer sur un marché spécifique et prometteur (car ils constatent une augmentation des bénéfices). Ils ont également besoin de traiter les retours des clients. 
+Votre objectif est d'explorer, de présenter et de cibler un marché.
 
 ---
 
@@ -19,9 +20,10 @@ Le jeu de données est composé de **8048 lignes**, représentant des commandes 
 
 ## 🛠️ Méthodologie  
 
-1. [Analyse et Prétraitement des Données](./notebook.ipynb)  
-2. [Définition des KPI](./kpi.md)  
-3. Développement d'un tableau de bord  
+1. [Analyse et Prétraitement des Données](./docs/fichiers/notebook.ipynb)  
+2. [Définition des KPI](./docs/recherche/kpi.md)  
+3. [Développement d'un tableau de bord](./BC_MPR.pbix)
+4. [Mise en place d'un PowerPoint de présentation](https://docs.google.com/presentation/d/1V7WXN1iHa41Mmw6_VNbN1O94SACtuPOrAKditiu7y1s/edit?usp=sharing)
 
 ---
 
@@ -53,26 +55,27 @@ Le jeu de données est composé de **8048 lignes**, représentant des commandes 
 
 
 
-## 📂 Structure du dépôt
+## 🏗️ Structure du dépôt
 ```
-CampusCARE/
+BC_MARKET_RETAIL/
+├── docs/                   # Contient les documents non livrables et images
+│   ├── images/             # Toutes les images utilisées dans les livrables
+│   ├── recherche/          # Notebook de nettoyage et exploration des données et réflexion sur les kpis
 ├── donnees/                # Contient les données brutes et transformées
 │   ├── brutes/             # Données brutes (non modifiées)
-│   ├── nettoyees/          # Données nettoyées ou modifiées
-├── scripts/                # Scripts Python pour le traitement, l'analyse et la modélisation
-├── notebooks/              # Notebooks pour l'exploration et la visualisation des données
-├── streamlit/              # Code pour l'interface utilisateur
-├── dataviz/                # Graphiques, visualisations et rapport final
-├── docs/                   # Documentation, Méthodologie
-├── images/                 # Visuels, Captures d'écran, logos
+│   ├── nettoyees/          # Données nettoyées et modifiées
+├── livrables/              # Contient tout ce qui a été demandé et qu'il faudra rendre
+│   ├── dashboard/          # Dashboard powerBI
 └── README.md               # Description du projet
 ```
 
-## 💡 Conclusion
+## 🏁 Conclusion
 
-Au-delà de l’aspect technique, ce business case, bien que fictif, aborde un enjeu humain profond : la santé mentale des étudiants. Il rappelle l’importance de mettre les données au service d’actions concrètes et ciblées pour améliorer le bien-être collectif.
+- Il faut agir rapidement sur les marchés qui ont un discount moyen trop élevé qui engendrent de lourdes pertes pour l’entreprise.
+- On peut voir que des pays qui apportent un fort CA ont des taux de discount assez bas. Une bonne stratégie serait de diminuer les remises des pays ou le bénéfice est négatif pour en apporter plus aux marchés qui sont déjà porteur pour les fidéliser  définitivement et aller chercher le chiffre chez eux car ce sont eux qui portent l’entreprise.
+- Se focaliser sur les produits technologiques qui apportent le plus de chiffre pour des ventes beaucoup moins importantes permettra de gonfler le chiffre.
+- On sait que l’entreprise reçoit beaucoup de feedback de la part de ses clients, lui permettant d’avoir des avis représentatifs sur leur expérience qui sont très importants à exploiter.
 
-Un projet qui conjugue technique et sens, et qui restera marquant !
 
 ---
 
